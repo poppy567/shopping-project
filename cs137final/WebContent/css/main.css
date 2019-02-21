@@ -1,0 +1,161 @@
+.naviul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 80px 0 80px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navili {
+    float: left;
+    width: 100px;
+}
+.naviliright {
+    float: right;
+    width:150px;
+}
+
+.naviliright a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.naviliright a:hover {
+    background-color: #111;
+}
+
+.navili a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navili a:hover {
+    background-color: #111;
+}
+
+.productname{
+    text-decoration: none;
+    color:#000000;
+}
+h1, h2{
+    text-align: center;
+}
+
+.introimage {
+    float: left;
+    width: 40%;
+    padding:30px 70px 0 100px;
+}
+
+.intro {
+    width:90%;
+    padding:30px 70px 0 10px;
+    font-size: 20px;
+}
+.intro1 {
+    width:90%;
+    padding:70px 70px 0 70px;
+    font-size: 20px;
+}
+.leftfloat{
+    float:left;
+    width: 25%;
+}
+.information_details{
+    margin:60px;
+    color: #555;
+    font-size:85%;
+}
+
+.sizetable{
+    border-collapse:collapse;
+    float:left;
+    margin-left: 10px;
+}
+.sizetd{
+    text-align: center;
+    border:1px solid;
+    width:40px;
+    height:40px;
+}
+.customersay{
+    margin-left: 10px;
+}
+.small_caption{
+    font-weight: bold;
+}
+.color{
+    margin-right:50px;
+    
+}
+
+.firsthalf{
+    height:800px; 
+    padding:0 0 100px;
+}
+
+
+.orderdiv{
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.orderdiv input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.orderdiv select {
+    width: 50%;
+    height: 45px;
+    padding: 16px 20px;
+    margin: 8px 0 0 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+}
+.orderdiv input[type=submit] {
+    width: 82%;
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.orderdiv input[type=submit]:hover {
+    background-color: #555;
+}
+.mySlides {display:none}
+.demo {cursor:pointer}
+.floyd {
+    display: inline-block;
+    margin: 10px;
+     -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    }
+.floyd:hover {
+    position: relative;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 1000;
+}
